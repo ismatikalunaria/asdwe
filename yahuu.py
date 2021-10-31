@@ -12,7 +12,9 @@ from selenium.webdriver.support.ui import Select
 from selenium.webdriver.chrome.service import Service
 from selenium.common.exceptions import NoSuchElementException
 # =================== #
-import undetected_chromedriver.v2 as uc
+# pip install selenium requests random-text-generator undetected-chromedriver==1.5.2
+# =================== #
+import undetected_chromedriver as uc
 import random, urllib, os, sys, time, requests
 # =================== #
 lantak = random.randint(11111111,99999999)
